@@ -1,0 +1,32 @@
+# This file describes the network interfaces available on your system
+# and how to activate them. For more information, see interfaces(5).
+
+source /etc/network/interfaces.d/*
+
+# The loopback network interface
+auto lo
+iface lo inet loopback
+# Red pública
+auto enp0s3
+iface enp0s3 inet static
+address 192.168.2.61
+netmask 255.255.255.0
+broadcast 192.168.2.255
+gateway 192.168.2.1
+network 192.168.2.0
+#Red interna
+auto enp0s8
+iface enp0s8 inet static
+address 192.168.3.1
+netmask 255.255.255.0
+broadcast 192.168.3.255
+network 192.168.3.0
+#No lleva gateway
+#Red interna 2
+auto enp0s9
+iface enp0s9 inet static
+address 192.168.4.1
+netmask 255.255.255.0
+broadcast 192.168.4.255
+network 192.168.4.0
+# No lleva gateway

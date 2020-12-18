@@ -1,0 +1,16 @@
+;
+; BIND data file for local loopback interface
+;
+$TTL	604800
+@	IN	SOA	servidor.fp211.org. root.fp211.org (
+			      2		; Serial
+			 604800		; Refresh
+			  86400		; Retry
+			2419200		; Expire
+			 604800 )	; Negative Cache TTL
+;
+	IN	NS	servidor.fp211.org.
+	IN	NS	dns2.fp211.org.
+1	IN	PTR	servidor.fp211.org.
+11	IN	PTR	dns2.fp211.org.
+12	IN	PTR	cliente02.fp211.org.

@@ -1,0 +1,14 @@
+// ZONA DIRECTA PARA EL DOMINIO: fp211.org
+zone "fp211.org" {
+  type master;
+  file "/etc/bind/db.fp211.org";
+  allow-transfer {192.168.3.11;};
+  also-notify {192.168.3.11;};
+};
+// Zona inversa para la red 192.168.3.0
+zone "3.168.192.in-addr.arpa" {
+  type master;
+  file "/etc/bind/db.3.168.192";
+  allow-transfer {192.168.3.11;};
+  also-notify {192.168.3.11;};
+};

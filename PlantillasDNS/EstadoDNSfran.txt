@@ -1,0 +1,21 @@
+● bind9.service - BIND Domain Name Server
+   Loaded: loaded (/lib/systemd/system/bind9.service; enabled; vendor preset: enabled)
+   Active: active (running) since Thu 2020-12-17 11:11:18 CET; 13h ago
+     Docs: man:named(8)
+  Process: 2799 ExecStart=/usr/sbin/named $OPTIONS (code=exited, status=0/SUCCESS)
+ Main PID: 2800 (named)
+    Tasks: 4 (limit: 4915)
+   Memory: 19.1M
+   CGroup: /system.slice/bind9.service
+           └─2800 /usr/sbin/named -4
+
+dic 17 11:11:18 debian named[2800]: zone localhost/IN: loaded serial 2
+dic 17 11:11:18 debian named[2800]: zone fp211.org/IN: loaded serial 2
+dic 17 11:11:18 debian named[2800]: zone 3.168.192.in-addr.arpa/IN: loaded serial 2
+dic 17 11:11:18 debian named[2800]: all zones loaded
+dic 17 11:11:18 debian systemd[1]: Started BIND Domain Name Server.
+dic 17 11:11:18 debian named[2800]: running
+dic 17 11:11:18 debian named[2800]: zone 3.168.192.in-addr.arpa/IN: sending notifies (serial 2)
+dic 17 11:11:18 debian named[2800]: zone fp211.org/IN: sending notifies (serial 2)
+dic 17 11:11:18 debian named[2800]: managed-keys-zone: Key 20326 for zone . acceptance timer complete: key now trusted
+dic 17 11:11:19 debian named[2800]: resolver priming query complete
