@@ -3,6 +3,7 @@
 ## [Plantillas DNS](PlantillasDNS)
 ### Nftables
 **Habilitar forwarding paquetes ipv4 --> vim /etc/sysctl.conf  línea 28 descomentar**
+
 `sysctl -p (reinicia)`
 
 `apt install nftables`
