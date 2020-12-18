@@ -1,0 +1,15 @@
+// Zona directa
+zone "fp211.org" {
+	type slave;
+	masters {
+		192.168.3.1;
+	};
+	file "/var/cache/bind/db.fp211.org";
+};
+zone "3.168.192.in-addr.arpa"{
+	type slave;
+	masters {
+		192.168.3.1;
+	};
+	file "/var/cache/bind/db.3.168.192";
+};

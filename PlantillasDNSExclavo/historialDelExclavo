@@ -1,0 +1,173 @@
+    1  nano /etc/apt/sources.list
+    2  apt update
+    3  apt upgrade
+    4  apt install gcc build-essential
+    5  apt install linux-headers-$(uname -r)
+    6  mount
+    7  cd /media/cdrom
+    8  ls
+    9  sh VBoxLinuxAdditions.run
+   10  reboot
+   11  systemctl status network-manager
+   12  systemctl stop network-manager
+   13  systemctl disabled network-manager
+   14  nano /etc/fstab
+   15  systemctl disable network-manager
+   16  reboot
+   17  ip a
+   18  ip link set enp0s3 up
+   19  ip a
+   20  nano /etc/network/interfaces
+   21  nano /etc/resolv.conf 
+   22  systemctl restart networking
+   23  ip a
+   24  ip r
+   25  ping google.es
+   26  exit
+   27  poweroff
+   28  poweroff
+   29  apt get install vim
+   30  apt install vim
+   31  apt update
+   32  apt upgrade
+   33  exit
+   34  apt install vim
+   35  vim /etc/network/interfaces
+   36  systemctl restart networking.service 
+   37  systemctl restart networking.service 
+   38  vim /etc/network/interfaces
+   39  ping 192.168.3.1
+   40  ping 192.168.3.1
+   41  ping -c 4 192.168.3.1
+   42  ping google.es
+   43  ping google.es
+   44  clear
+   45  ping -c 4 google.es
+   46  ip a
+   47  vim /etc/network/interfaces
+   48  systemctl restart networking.service 
+   49  ip a
+   50  clear
+   51  ip a
+   52  ip r
+   53  cat /etc/resolv.conf 
+   54  vim /etc/dhcp/dhclient.conf 
+   55  dhclient -v
+   56  vim /etc/dhcp/dhclient.conf 
+   57  dhclient -v
+   58  clear
+   59  cat /var/lib/dhcp/dhclient.enp0s3.leases 
+   60  ip a
+   61  cat /var/lib/dhcp/dhclient.enp0s3.leases 
+   62  date
+   63  dhclient -v
+   64  cat /var/lib/dhcp/dhclient.enp0s3.leases 
+   65  cat /var/lib/dhcp/dhclient.leases 
+   66  clear
+   67  dhclient -r -v
+   68  ip a
+   69  cat /etc/network/interfaces
+   70  ip a
+   71  ip a
+   72  clear
+   73  dhclient -v
+   74  ip a
+   75  clear
+   76  dhclient -r -v
+   77  dhclient -v
+   78  poweroff
+   79  poweroff
+   80  clear
+   81  vi /etc/network/interfaces
+   82  lear
+   83  clear
+   84  systemctl restart networking.service 
+   85  ip a
+   86  clear
+   87  ping 1.1.1.1
+   88  ping 192.168.3.1
+   89  clear
+   90  ping 1.1.1.1
+   91  clear
+   92  nano /etc/network/interfaces
+   93  clear
+   94  ls
+   95  clear
+   96  vi /etc/resolv.conf 
+   97  vi /etc/resolv.conf 
+   98  ping 1.1.1.1
+   99  ping google.es
+  100  apt update 
+  101  clear
+  102  vi /etc/resolv.conf
+  103  apt update 
+  104  apt dnsutils
+  105  apt install dnsutils
+  106  clear
+  107  clear
+  108  vi /etc/resolv.conf 
+  109  vi /etc/resolv.conf
+  110  passwd usuario 
+  111  clear
+  112  clea
+  113  clear
+  114  ls
+  115  clear
+  116  clear
+  117  ping 192.168.3.1
+  118  cat /etc/resolv.conf 
+  119  nano /etc/resolv.conf 
+  120  apt install dnsutils 
+  121  clear
+  122  ping google.es
+  123  ping google.es
+  124  ping server
+  125  ping servidor.fp211.org
+  126  dig informaticarodrigocaro.es +noall +stats
+  127  dig informaticarodrigocaro.es +noall +stats
+  128  dig informaticarodrigocaro.es +stats
+  129  dig one.one.one.one +stats
+  130  dig 192.168.3.11
+  131  dig 192.168.3.1
+  132  dig -x 192.168.3.1
+  133  nano /etc/hosts
+  134  nano /etc/hosts
+  135  clear
+  136  apt install bind9
+  137  nano /etc/bind/named.conf.local 
+  138  nano /etc/bind/named.conf.local 
+  139  # DESACTIVAR IPV6
+  140  nano /etc/default/bind9 
+  141  named-checkconf /etc/bind/named.conf.local 
+  142  nano /etc/bind/named.conf.local 
+  143  named-checkconf /etc/bind/named.conf.local 
+  144  named-checkconf /etc/bind/named.conf.local 
+  145  nano /etc/bind/named.conf.local 
+  146  named-checkconf /etc/bind/named.conf.local 
+  147  ls /var/cache/bind/
+  148* 
+  149  clear
+  150  nano /var/cache/bind/cat db.*
+  151  cat /var/cache/bind/db
+  152  cat /var/cache/bind/db.*
+  153  cat /var/cache/bind/db.3.168.192 
+  154  clear
+  155  dig @192.168.3.11 servidor.fp211.org
+  156  nslookup 
+  157  CLEAR
+  158  nslookup 
+  159  nslookup servidor.fp211.org
+  160  cat /etc/resolv.conf 
+  161  clear
+  162  nano /etc/resolv.conf 
+  163  clar
+  164  clear
+  165  cat /var/cache/bind/
+  166  ls /var/cache/bind/
+  167  clear
+  168  ls /var/cache/bind/
+  169  history 
+  170  clear
+  171  nano /etc/bind/named.conf.local 
+  172  history 
+  173  history > historialDelExclavo
