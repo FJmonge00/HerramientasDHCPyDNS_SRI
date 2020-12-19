@@ -1,5 +1,5 @@
 # Herramientas SRI
-## [Plantillas DHCP](plantillasFicherosDHCP)
+## [Plantillas DHCP](PlantillasFicherosDHCP)
 ## [Plantillas DNS](PlantillasDNS)
 ### Nftables
 **Habilitar forwarding paquetes ipv4 --> vim /etc/sysctl.conf  línea 28 descomentar**
