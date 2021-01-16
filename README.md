@@ -1,4 +1,4 @@
-# Herramientas SRI
+# Herramientas DHCP Y DNS SRI
 ## [Plantillas DHCP](PlantillasFicherosDHCP)
 ## [Plantillas DNS](PlantillasDNS)
 ### Nftables
